@@ -24,29 +24,68 @@
 .description {
     color: white;
     background: black;
-    margin-top: 500px;
+    margin-top: 200px;
     line-height: 2.3;
+    text-align: center;
+    border-radius: 15px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: 10px dotted limegreen;
 }
 
 #title {
     background: black;
     color: white;
-    margin: auto;
+    margin-top: 200px;
+    position: relative;
+    top: 40px;
+    padding: 20px;
+    border-radius: 25px;
 }
 
 .nav{
     position: absolute;
     top: 0px;
     left: 0px;
+    border: white;
    }
 
+.navbar-toggler-icon{
+    color: white;
+}
+
    h1 {
-       text-align: center
+       text-align: center;
    }
       
-.navbar {
-    
-}                        
-.nav-link a:hover {
-    color: #00FF00;
+                      
+   .navbar-dark .navbar-nav .nav-link {
+    color: yellow;
   }
+
+#part{
+    background-color: black;
+    position: relative;
+    bottom: -230px;
+    border: 6px solid white;
+}
+
+#video{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+body {
+    background-color: black;
+}
+
+.footer, .push{
+    height: 100px;
+    background-color: black;
+    margin-top: 500px;
+    text-align: center;
+    color: white;
+}
