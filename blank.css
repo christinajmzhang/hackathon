@@ -1,10 +1,52 @@
-#life{
-    background-color: aquamarine;
-
-}
-
-.k{
-    color: white;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+.centertext {
     text-align: center;
+    background-color: white;
 }
+
+.background-image {
+    background-image: url(https://www.raspberrypi.org/app/uploads/2019/11/frogger-screenshot.png);
+    
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+.font {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 50px;
+}
+
+.description {
+    color: white;
+    background: black;
+    margin-top: 500px;
+    line-height: 2.3;
+}
+
+#title {
+    background: black;
+    color: white;
+    margin: auto;
+}
+
+.nav{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+   }
+
+   h1 {
+       text-align: center
+   }
+      
+.navbar {
+    
+}                        
+.nav-link a:hover {
+    color: #00FF00;
+  }
