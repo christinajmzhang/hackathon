@@ -114,12 +114,66 @@ body {
 }
 
 
-:root {
-    --animate-delay: 2s;
-    --animate-duration: 10s;
-  }
 
-  .animate__animated .animate__bounceInLeft{
-    --animate-delay: 5s;
+  .animate__animated {
+    --animate-duration: 4s;
+    transform: rotate(90deg);
+}
+
+#a{
+    font-family: 'Rowdies', cursive;
+    text-align: center;
+}
+
+.words{
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
     color: white;
+}
+
+
+.animate__animated.animate__bounceInUp {
+    --animate-duration: 6s;
+    margin-left: 500px;
+    margin-top: 100px;
+}
+
+.written{
+    color: white;
+}
+
+#a{
+    font-family: 'Rowdies', cursive;
+    text-align: center;
+    color: white;
+    background: black;
+    font-size: 70px;
+}
+
+.words{
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    color: white;
+    background: black;
+    border: 6px solid white;
+    padding: 7px 30px;
+
+}
+
+#b{
+    margin-top: 10px;;
+}
+
+.gameplay{
+    text-align: center;
+    color: white;
+}
+
+.scoring{
+    text-align: center;
+}
+
+.developmentrelease{
+    text-align: center;
+    margin-top: 10px;
 }
