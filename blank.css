@@ -16,11 +16,6 @@
 
 }
 
-.font {
-    font-family: "Times New Roman", Times, serif;
-    font-size: 50px;
-}
-
 .description {
     color: white;
     background: black;
@@ -33,9 +28,11 @@
     padding-left: 10px;
     padding-right: 10px;
     border: 10px dotted limegreen;
+        font-family: "Times New Roman", Times, serif;
+    font-size: 28px;
 }
 
-#title {
+.title {
     background: black;
     color: white;
     margin-top: 200px;
@@ -43,6 +40,13 @@
     top: 40px;
     padding: 20px;
     border-radius: 25px;
+    font-size: 200%;
+    font-family: 'Rowdies', cursive;
+    font-weight: 700;
+}
+
+#contact{
+    margin-left: 40px;
 }
 
 .nav{
@@ -62,7 +66,7 @@
       
                       
    .navbar-dark .navbar-nav .nav-link {
-    color: yellow;
+    color: white;
   }
 
 #part{
@@ -82,10 +86,29 @@ body {
     background-color: black;
 }
 
+
+.card {
+    float: left;
+    margin-right: 30px;
+}
+
+.wrap{
+    padding-left: 125px;
+    padding-top: 30px;
+}
 .footer, .push{
     height: 100px;
     background-color: black;
     margin-top: 500px;
     text-align: center;
     color: white;
+}
+.card-img-top {
+    width:  200px;
+    height: 200px;
+    object-fit: cover;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 65%;
 }
