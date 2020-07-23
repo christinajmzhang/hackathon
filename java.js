@@ -108,7 +108,13 @@ function updateGameArea() {
             alert("Refresh to restart")
         }
         //document.getElementById("notifications").textContent = "Collision!!!"
-    } else {
+    } 
+    if (myGamePiece.y < -30) {
+        alert ("You Won!");
+        alert ("Refresh to restart");
+        myGameArea.stop();
+    }
+    else {
         myGameArea.clear()
         myGamePiece.newPos()
         myGamePiece.update()
